@@ -8,7 +8,6 @@ public class FizzBuzz
 	 * @return a string corresponds to that number
 	 */
 	public static String processNumber(int num) {
-        // TODO: Write your code here
         if (num < 0) return "";
         if (num == 0) return "0";
         if (num % 15 == 0) return "FizzBuzz";
@@ -23,7 +22,6 @@ public class FizzBuzz
 	 * @return a string corresponds to that numbers array
 	 */
 	public static String processNumbers(int[] nums) {
-        // TODO: Write your code here
         String proc_num, new_nums = "";
         for (int i = 0; i < nums.length; i++) {
           proc_num = processNumber(nums[i]);
